@@ -1,6 +1,7 @@
 #
 %define	_snap	20060321
 Summary:	Motorola for Linux
+Summary(pl):	Motorola dla Linuksa
 Name:		moto4lin
 Version:	0.3
 Release:	0.%{_snap}.1
@@ -21,10 +22,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The moto4lin software is intended to be used with Motorola
 telephones based on the P2K platform.
+
 Supported actions:
 - Traverse the file system of the telephone
 - Work with SEEM
 - Manage Java
+
+%description -l pl
+Oprogramowanie moto4lin jest przeznaczone do u¿ywania z telefonami
+Motorola opartymi na platformie P2K.
+
+Obs³ugiwane operacje:
+- przegl±danie systemu plików w telefonie
+- praca z SEEM
+- zarz±dzanie Jav±
 
 %prep
 %setup -q -n %{name}
@@ -53,4 +64,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changelog README
 %attr(755,root,root) %{_bindir}/moto4lin
-%{_datadir}/%{name}/*
+%{_datadir}/%{name}
