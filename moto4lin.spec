@@ -1,7 +1,7 @@
 #
 %define	_snap	20060321
 Summary:	Motorola for Linux
-Summary(pl):	Motorola dla Linuksa
+Summary(pl.UTF-8):   Motorola dla Linuksa
 Name:		moto4lin
 Version:	0.3
 Release:	0.%{_snap}.1
@@ -28,14 +28,14 @@ Supported actions:
 - Work with SEEM
 - Manage Java
 
-%description -l pl
-Oprogramowanie moto4lin jest przeznaczone do u¿ywania z telefonami
+%description -l pl.UTF-8
+Oprogramowanie moto4lin jest przeznaczone do uÅ¼ywania z telefonami
 Motorola opartymi na platformie P2K.
 
-Obs³ugiwane operacje:
-- przegl±danie systemu plików w telefonie
+ObsÅ‚ugiwane operacje:
+- przeglÄ…danie systemu plikÃ³w w telefonie
 - praca z SEEM
-- zarz±dzanie Jav±
+- zarzÄ…dzanie JavÄ…
 
 %prep
 %setup -q -n %{name}
