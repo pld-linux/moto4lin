@@ -1,7 +1,7 @@
 #
 %define	_snap	20060321
 Summary:	Motorola for Linux
-Summary(pl.UTF-8):   Motorola dla Linuksa
+Summary(pl.UTF-8):	Motorola dla Linuksa
 Name:		moto4lin
 Version:	0.3
 Release:	0.%{_snap}.1
